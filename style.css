@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    background-color: black;
+    overflow: hidden;
+}
+nav a
+{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 17px;
+    background-color: blue;
+    display: flex;
+    float: right;
+}
+#home
+{
+    float: left;
+}
+.header-sec
+{
+    color: blue;
+    margin: auto;
+    padding: 50px 0 30px 0;
+    background-color: rgba(138, 138, 141, 0.438);
+    text-align: center;
+}
+.component
+{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    color: orangered;
+    border: 3px solid red;
+    width: 70%;
+    padding: 30px;
+}
+#home-comp
+{
+    display: none;
+}
+#about-comp
+{
+    display: none;
+}
+#more-comp
+{
+    display: none;
+}
+#info-comp
+{
+    display: none;
+}
